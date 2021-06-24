@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(195, 195, 195);
+}
+
+main {
+  width: 98%;
+  margin: 2rem auto;
+  border: 3px solid black;
+  color: white;
+  background-image: linear-gradient(
+    to top right,
+    rgba(234, 208, 192, 0.5) 75%,
+    rgba(255, 255, 255, 0.5)
+  );
+}
+
+.div1 {
+  background-color: rgb(136, 0, 27);
+  text-align: center;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 2rem 10px 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.leftDisplayBox {
+  margin: 2px 10px 2rem;
+  background-color: #ffffff;
+  color: black;
+  border: 3px solid black;
+}
+
+/* 
+  ##################################################################################################################
+                                          
+  ##################################################################################################################
+*/
+
+#butn1 {
+  background-color: #4caf50; /* Red */
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 1em;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  right: 8px;
+  top: 0px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+#teaGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+#teaRed {
+  background-color: #fa0c03;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+#teaOrange {
+  background-color: orange;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+
+#teaGrey {
+  background-color: rgb(170, 169, 169); /* Grey */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+#teaIIGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+#teaIIRed {
+  background-color: #fa0c03;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+#teaIIOrange {
+  background-color: orange; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+
+#teaIIGrey {
+  background-color: rgb(170, 169, 169); /* Grey */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+#iAuditIIRed {
+  background-color: #fa0c03;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 134px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+}
+
+/* 
+  ##################################################################################################################
+                                          
+  ##################################################################################################################
+*/
+
+.butn0 {
+  background-color: #4caf50; /* Red */
+  border: none;
+  color: white;
+  padding: 15px;
+  margin: 1em;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  left: 0px;
+  top: 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+#button1 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 260px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-right: 400px;
+}
+
+#button2 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 413px;
+}
+#button3 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 250px;
+}
+
+#button4 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 90px;
+}
+#buttonn1 {
+  background-color: #fa0c03;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 14%;
+  border-radius: 10px;
+}
+#buttonn2 {
+  background-color: #fa0c03;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 14%;
+  border-radius: 10px;
+}
+#buttonn3 {
+  background-color: #fa0c03;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 14%;
+  border-radius: 10px;
+}
+#buttonnn3 {
+  background-color: #ffb547;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 250px;
+}
+#buttonn4 {
+  background-color: #fa0c03;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 23rem;
+}
+.collapse navbar-collapse{
+  display: flex;
+}
+
+.navbarLeft{
+  flex: 4;
+}
+
+.navbarCenter{
+  flex: 8;
+  justify-content: center;
+  text-align: center;
+}
+.navbarRight{
+  flex: 4;
+  display: flex;
+  justify-content: flex-end;
+}

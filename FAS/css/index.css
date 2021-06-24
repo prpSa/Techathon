@@ -1,0 +1,65 @@
+ /* background addition */
+
+ #home::before {
+     content: "";
+     background: url(images/bg2.jpg) no-repeat center center/cover;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     z-index: -1;
+ }
+
+ .nav {
+     display: flex;
+     position: absolute;
+     right: 0rem;
+     margin-right: 8rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .nav a {
+     text-decoration: none;
+     border: 2px solid blue;
+     border-radius: 5px;
+     margin: 10px;
+     padding: 5px;
+     color: rgb(184, 21, 21);
+ }
+
+ .nav a:hover {
+     text-decoration: none;
+     color: rgb(144, 0, 255);
+     background-color: rgb(247, 221, 191);
+ }
+
+ .content {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     top: 12.5rem;
+     left: 5rem;
+     align-items: center;
+     text-align: center;
+     width: 40vw;
+     font-size: 1.1em;
+ }
+ .collapse navbar-collapse{
+    display: flex;
+  }
+  
+  .navbarLeft{
+    flex: 4;
+  }
+  
+  .navbarCenter{
+    flex: 8;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbarRight{
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+  }

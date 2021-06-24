@@ -1,0 +1,796 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  background-color: rgb(195, 195, 195);
+}
+
+main {
+  width: 98%;
+  margin: 2rem auto;
+  border: 3px solid black;
+  color: white;
+  /* background-color: rgb(234, 208, 192); */
+  background-image: linear-gradient(
+    to top right,
+    rgba(234, 208, 192, 0.5) 75%,
+    rgba(255, 255, 255, 0.5)
+  );
+}
+
+.div1 {
+  background-color: rgb(136, 0, 27);
+  text-align: center;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 2rem 10px 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.leftDisplayBox {
+  margin: 2px 10px 2rem;
+  background-color: #ffffff;
+  color: black;
+  border: 3px solid black;
+}
+.collapse navbar-collapse{
+  display: flex;
+}
+
+.navbarLeft{
+  flex: 4;
+}
+
+.navbarCenter{
+  flex: 8;
+  justify-content: center;
+  text-align: center;
+}
+.navbarRight{
+  flex: 4;
+  display: flex;
+  justify-content: flex-end;
+}
+/* 
+##################################################################################################################
+                                      Edit course Form  
+##################################################################################################################
+ */
+
+#editGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#editOrange {
+  background-color: orange; /* Orange */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#editGrey {
+  background-color: rgb(170, 169, 169); /* Grey */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+
+/* 
+##################################################################################################################
+                                      Edit upload Form
+##################################################################################################################
+ */
+
+#teacherIGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#teacherIGrey {
+  background-color: rgb(170, 169, 169); /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#teacherIOrange {
+  background-color: orange; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#teacherIRed {
+  background-color: #fa0c03; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+
+/* 
+##################################################################################################################
+                                      View Response
+##################################################################################################################
+ */
+
+#viewResponse {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+
+/* 
+##################################################################################################################
+                                      View Docs
+##################################################################################################################
+ */
+
+#viewDoc {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+
+/* 
+##################################################################################################################
+                                              Dqa Team
+##################################################################################################################
+ */
+
+#dqaGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 23rem;
+}
+#dqaOrange {
+  background-color: orange; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 23rem;
+}
+#dqaRed {
+  background-color: #fa0c03; /* Red */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 23rem;
+}
+
+/* 
+##################################################################################################################
+                                              Internal auditor
+##################################################################################################################
+ */
+#iAuditGrey {
+  background-color: rgb(170, 169, 169); /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 16rem;
+}
+#iAuditGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 16rem;
+}
+#iAuditOrange {
+  background-color: orange; /* Orange */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 16rem;
+}
+#iAuditRed {
+  background-color: #fa0c03; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 16rem;
+}
+
+/* 
+##################################################################################################################
+                                              Internal auditor II
+##################################################################################################################
+ */
+#iAuditIIGrey {
+  background-color: rgb(170, 169, 169); /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 9rem;
+}
+#iAuditIIGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 9rem;
+}
+#iAuditIIOrange {
+  background-color: orange; /* Orange */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 9rem;
+}
+#iAuditIIRed {
+  background-color: #fa0c03; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 9rem;
+}
+
+#viewDocII {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#teacherIIGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#teacherIIGrey {
+  background-color: rgb(170, 169, 169); /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#teacherIIOrange {
+  background-color: orange; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+#teacherIIRed {
+  background-color: #fa0c03; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 0px;
+  text-align: center;
+  width: 140px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem 0.4rem 0.5rem;
+}
+
+/* 
+##################################################################################################################
+                                            hod
+##################################################################################################################
+*/
+
+#hodGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 2rem;
+}
+#hodOrange {
+  background-color: orange; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 2rem;
+}
+#hodRed {
+  background-color: #fa0c03; /* Green */
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 27px;
+  text-align: center;
+  width: 106px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: 0.4rem 0.2rem;
+  position: absolute;
+  right: 2rem;
+}
+
+/* 
+##################################################################################################################
+                                            
+##################################################################################################################
+*/
+#butn0 {
+  background-color: #4caf50; /* Red */
+  border: none;
+  color: white;
+  padding: 15px;
+  margin: 1em;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  left: 0px;
+  top: 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.butn0 {
+  background-color: #4caf50; /* Red */
+  border: none;
+  color: white;
+  padding: 15px;
+  margin: 1em;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  left: 0px;
+  top: 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+/* 
+##################################################################################################################
+                                            Extra
+##################################################################################################################
+*/
+#button1 {
+  background-color: orange; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 175px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-right: 400px;
+}
+
+#button11 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 835px;
+}
+
+#buttonn1 {
+  background-color: #fa0c03; /* Red */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 350px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-right: 400px;
+}
+
+#buttonn3 {
+  background-color: #fa0c03; /* Red */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 200px;
+}
+
+#buttonn5 {
+  background-color: #fa0c03; /* Red */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 480px;
+}
+/* this is button css for create new form  */
+#butn1 {
+  background-color: #4caf50; /* Red */
+  border: none;
+  color: white;
+  padding: 15px;
+  margin: 1em;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+#teacherGreen {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 975px;
+}

@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(195, 195, 195);
+}
+
+main {
+  width: 98%;
+  margin: 2rem auto;
+  
+  color: white;
+  /* background-color: rgb(234, 208, 192); */
+  background-image: linear-gradient(
+    to top right,
+    rgba(234, 208, 192, 0.5) 75%,
+    rgba(255, 255, 255, 0.5)
+  );
+}
+
+.div1 {
+  background-color: rgb(136, 0, 27);
+  text-align: center;
+  
+  padding: 10px;
+  color: #ffffff;
+  margin: 2rem AUTO 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  max-width: 97.5%;
+}
+table {
+  background-color: white;
+}
+
+th {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(136, 0, 27);
+  color: white;
+ 
+  text-align: center;
+}
+td {
+  background-image: linear-gradient(
+    to top right,
+    rgba(234, 208, 192, 0.5) 45%,
+    rgba(255, 255, 255, 0.5)
+  );
+
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Feedback {
+  margin: 2px 10px 2rem;
+  text-align: center;
+  margin: auto;
+  background-color: #ffffff;
+  color: black;
+ 
+  max-width: 80%;
+}
+.Submit {
+  background-color: rgb(136, 0, 27);
+  grid-column: 1/-1;
+  text-align: center;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 10px;
+  width: 130px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.collapse navbar-collapse{
+  display: flex;
+}
+
+.navbarLeft{
+  flex: 4;
+}
+
+.navbarCenter{
+  flex: 8;
+  justify-content: center;
+  text-align: center;
+}
+.navbarRight{
+  flex: 4;
+  display: flex;
+  justify-content: flex-end;
+}

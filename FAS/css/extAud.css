@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(
+    to top right,
+    rgba(234, 208, 192, 0.5) 10%,
+    rgba(255, 255, 255, 0.5)
+  );
+}
+
+.collapse navbar-collapse{
+  display: flex;
+}
+
+.navbarLeft{
+  flex: 4;
+}
+
+.navbarCenter{
+  flex: 8;
+  justify-content: center;
+  text-align: center;
+}
+.navbarRight{
+  flex: 4;
+  display: flex;
+  justify-content: flex-end;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  height: 70vh;
+  position: fixed;
+  bottom: 0;
+  
+}
+.subname{
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  width: 91%;
+  height: 10vh;
+  margin: 5% auto;
+  font-weight: 500;
+  font-size: 2rem;
+  background-color: rgb(136, 0, 27);
+  color: white;
+
+}
+.sub{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.sub1{
+  flex: 1;
+  width: 30%;
+  text-align: center;
+}
+.sub2{
+  flex: 1;
+  width: 30%;
+  text-align: center;
+}
+.sub3{
+  flex: 1;
+  width: 30%;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  
+}
+.cl{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 5%;
+  position:absolute;
+   bottom:0;
+   margin-bottom: 10px;
+  
+}
+.c{
+  flex: 1;
+  width: 50%;
+  text-align: center;
+}
+.l{
+  flex: 1;
+  width: 50%;
+  text-align: center;
+}
+button {
+  background: none;
+  color: inherit;
+  border: none !important;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: none !important;
+  font-size:1.5rem !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+}
+p{
+  font-size:1.5rem !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important; 
+  color: black !important;   
+}
+a{
+  text-decoration:none !important;
+  color: black !important;
+  }
+a:hover{
+ color: red !important;
+}
+button:hover{
+  color: rgb(0, 64, 255) !important;
+}
+a:visited {
+  color: green;
+}
+button:focus {
+  outline: green auto 5px; 
+}
+#tick1{
+  color: green;
+  
+}
+#tick2{
+  color: green;
+  
+}
+#tick3{
+  color: green;
+  
+}
+#tick4{
+  color: green;
+  
+}
